@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Mainpage() {
   return (
-    <div className="w-[100%] my-10">
+    <div className="w-[100%]">
        <Home></Home>
     </div>
   );

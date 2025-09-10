@@ -3,10 +3,11 @@ import React from 'react';
 import logo from '../../Images/rahmatpuraghs_logo.png'
 import { FaHome } from "react-icons/fa";
 import Link from 'next/link';
+import { IoMdArrowDropdown } from "react-icons/io";
 const Navbar = () => {
     return (
-        <div className='w-[90%] mx-auto min-h-[100px] border '>
-            <div className='text-right'>English</div>
+        <div className='w-[90%] border mx-auto min-h-[100px]'>
+            <div className='text-right text-black py-2'>English</div>
             <div className="navbar bg-green-700  shadow-sm justify-between ">
                 <div className="flex items-center">
                     {/* logo */}
@@ -28,35 +29,52 @@ const Navbar = () => {
                     <li className="relative group">
                         <Link
                             href="/"
-                            className="px-4 py-2 block hover:bg-green-700  rounded"
+                            className="py-2 px-4 hover:bg-green-700 hover:text-white flex items-start rounded"
                         >
                             <FaHome className='text-xl' />
                         </Link>
+                        
+                    </li>
+                    <li className="relative group">
+                        <Link
+                            href="/"
+                            className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
+                        >
+                           প্রতিষ্ঠান পরিচিতি <IoMdArrowDropdown className='text-xl' />
+                        </Link>
 
                         {/* Dropdown Menu */}
-                        <ul className="absolute left-0 top-full mt-1 w-40 bg-white text-black  rounded shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-300">
+                        <ul className="absolute left-0 z-40 top-full mt-1 w-[300px] bg-white text-black  rounded shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300">
                             <li>
                                 <Link
                                     href="/subpage1"
-                                    className="block px-4 py-2  hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm  hover:bg-green-700"
                                 >
-                                    Subitem 1
+                                    প্রধান শিক্ষকের বক্তব্য
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     href="/subpage2"
-                                    className="block px-4 py-2 hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    Subitem 2
+                                    সহাকারি প্রধান শিক্ষকের বক্তব্য
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     href="/subpage3"
-                                    className="block px-4 py-2 hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    Subitem 3
+                                    শিক্ষক মন্ডলী, কর্মচারী তালিকা
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="/subpage3"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
+                                >
+                                    আমাদের সম্পর্কে
                                 </Link>
                             </li>
                         </ul>
@@ -64,35 +82,27 @@ const Navbar = () => {
                     <li className="relative group">
                         <Link
                             href="/"
-                            className="px-4 py-2 block hover:bg-green-700  rounded"
+                            className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
                         >
-                           প্রতিষ্ঠান পরিচিতি
+                            শিক্ষার্থীর তথ্য <IoMdArrowDropdown className='text-xl'/>
                         </Link>
 
                         {/* Dropdown Menu */}
-                        <ul className="absolute left-0 top-full mt-1 w-40 bg-white text-black  rounded shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-300">
+                        <ul className="absolute left-0 z-40 top-full mt-1 w-[300px] bg-white text-black  rounded shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300">
                             <li>
                                 <Link
                                     href="/subpage1"
-                                    className="block px-4 py-2  hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    Subitem 1
+                                    ধরণ ভিত্তিক শিক্ষার্থী সংখ্যা
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     href="/subpage2"
-                                    className="block px-4 py-2 hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    Subitem 2
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/subpage3"
-                                    className="block px-4 py-2 hover:bg-green-700"
-                                >
-                                    Subitem 3
+                                     ধরণ ভিত্তিক শিক্ষার্থী তালিকা
                                 </Link>
                             </li>
                         </ul>
@@ -100,35 +110,35 @@ const Navbar = () => {
                     <li className="relative group">
                         <Link
                             href="/"
-                            className="px-4 py-2 block hover:bg-green-700  rounded"
+                            className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
                         >
-                            শিক্ষার্থীর তথ্য
+                            পাঠ্যদানসংক্রন্ত তথ্য <IoMdArrowDropdown className='text-xl' />
                         </Link>
 
                         {/* Dropdown Menu */}
-                        <ul className="absolute left-0 top-full mt-1 w-40 bg-white text-black  rounded shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-300">
+                        <ul className="absolute left-0 z-40 top-full mt-1 w-[300px] bg-white text-black  rounded shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300">
                             <li>
                                 <Link
                                     href="/subpage1"
-                                    className="block px-4 py-2  hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    Subitem 1
+                                   শিক্ষকদের নামসহ পূর্ণাঙ্গ রুটিন
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     href="/subpage2"
-                                    className="block px-4 py-2 hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    Subitem 2
+                                   পাঠ্যসূচি
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     href="/subpage3"
-                                    className="block px-4 py-2 hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    Subitem 3
+                                 বিবিধ 
                                 </Link>
                             </li>
                         </ul>
@@ -136,35 +146,51 @@ const Navbar = () => {
                     <li className="relative group">
                         <Link
                             href="/"
-                            className="px-4 py-2 block hover:bg-green-700  rounded"
+                            className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
                         >
-                            পাঠ্যদানসংক্রন্ত তথ্য
+                            নোটিশ <IoMdArrowDropdown className='text-xl' />
                         </Link>
 
                         {/* Dropdown Menu */}
-                        <ul className="absolute left-0 top-full mt-1 w-40 bg-white text-black  rounded shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-300">
+                        <ul className="absolute left-0 z-40 top-full mt-1 w-[300px] bg-white text-black  rounded shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300">
                             <li>
                                 <Link
                                     href="/subpage1"
-                                    className="block px-4 py-2  hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    Subitem 1
+                                    সকল নোটিশ
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     href="/subpage2"
-                                    className="block px-4 py-2 hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    Subitem 2
+                                    শিক্ষকগণের নোটিশ
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     href="/subpage3"
-                                    className="block px-4 py-2 hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    Subitem 3
+                                     শিক্ষার্থী নোটিশ
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="/subpage3"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
+                                >
+                                   নিয়োগ সংক্রান্ত নোটিশ
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="/subpage3"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
+                                >
+                                    পরীক্ষা সংক্রান্ত নোটিশ 
                                 </Link>
                             </li>
                         </ul>
@@ -172,35 +198,19 @@ const Navbar = () => {
                     <li className="relative group">
                         <Link
                             href="/"
-                            className="px-4 py-2 block hover:bg-green-700  rounded"
+                            className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
                         >
-                            নোটিশ
+                            ফলাফল <IoMdArrowDropdown className='text-xl' />
                         </Link>
 
                         {/* Dropdown Menu */}
-                        <ul className="absolute left-0 top-full mt-1 w-40 bg-white text-black  rounded shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-300">
+                        <ul className="absolute left-0 z-40 top-full mt-1 w-[300px] bg-white text-black  rounded shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300">
                             <li>
                                 <Link
                                     href="/subpage1"
-                                    className="block px-4 py-2  hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    Subitem 1
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/subpage2"
-                                    className="block px-4 py-2 hover:bg-green-700"
-                                >
-                                    Subitem 2
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/subpage3"
-                                    className="block px-4 py-2 hover:bg-green-700"
-                                >
-                                    Subitem 3
+                                   বিদ্যালয়ের ফলাফল
                                 </Link>
                             </li>
                         </ul>
@@ -208,182 +218,125 @@ const Navbar = () => {
                     <li className="relative group">
                         <Link
                             href="/"
-                            className="px-4 py-2 block hover:bg-green-700  rounded"
+                            className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
                         >
-                            ফলাফল
+                            কমিটি <IoMdArrowDropdown className='text-xl'/>
                         </Link>
 
                         {/* Dropdown Menu */}
-                        <ul className="absolute left-0 top-full mt-1 w-40 bg-white text-black  rounded shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-300">
+                        <ul className="absolute left-0 z-40 top-full mt-1 w-[300px] bg-white text-black  rounded shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300">
                             <li>
                                 <Link
                                     href="/subpage1"
-                                    className="block px-4 py-2  hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    Subitem 1
+                                    অনুমোদিত কমিটির চিঠি
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     href="/subpage2"
-                                    className="block px-4 py-2 hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    Subitem 2
+                                   কমিটির সদস্যের তথ্য
+                                </Link>
+                            </li>
+                            
+                        </ul>
+                    </li>
+                    <li className="relative group ">
+                        <Link
+                            href="/"
+                            className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
+                        >
+                            অন্যান্য <IoMdArrowDropdown className='text-xl' />
+                        </Link>
+
+                        {/* Dropdown Menu */}
+                        <ul className="absolute left-0 z-40 top-full mt-1 w-[300px] bg-white text-black  rounded shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300">
+                            <li>
+                                <Link
+                                    href="/subpage1"
+                                    className="block px-4 py-2  text-sm hover:bg-green-700"
+                                >
+                                    অনুমোদিত কমিটির চিঠি
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="/subpage2"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
+                                >
+                                   কমিটির সদস্যের তথ্য
                                 </Link>
                             </li>
                             <li>
                                 <Link
                                     href="/subpage3"
-                                    className="block px-4 py-2 hover:bg-green-700"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    Subitem 3
+                                   পাঠদানের অনুমতি ও স্বীকৃতি
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="/subpage3"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
+                                >
+                                    শ্রেণিভিত্তিক অনুমোদিত শাখা
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="/subpage3"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
+                                >
+                                   তথ্যসেবা কেন্দ্রের ঠিকানা ও মোবাইল নম্বর
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="/subpage3"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
+                                >
+                                   অভিযোগ নিষ্পত্তি কর্মকর্তার ঠিকানা ও মোবাইল নম্বর
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="/subpage3"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
+                                >
+                                    এমপিও/ইএফটি
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    href="/subpage3"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
+                                >
+                                     বিভিন্ন ফরম ডাউনলোড 
                                 </Link>
                             </li>
                         </ul>
                     </li>
-                    <li className="relative group">
+                    <li className="">
                         <Link
                             href="/"
-                            className="px-4 py-2 block hover:bg-green-700  rounded"
+                            className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
                         >
-                            কমিটি
+                           গ্যালারি <IoMdArrowDropdown className='text-xl' />
                         </Link>
 
-                        {/* Dropdown Menu */}
-                        <ul className="absolute left-0 top-full mt-1 w-40 bg-white text-black  rounded shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-300">
-                            <li>
-                                <Link
-                                    href="/subpage1"
-                                    className="block px-4 py-2  hover:bg-green-700"
-                                >
-                                    Subitem 1
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/subpage2"
-                                    className="block px-4 py-2 hover:bg-green-700"
-                                >
-                                    Subitem 2
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/subpage3"
-                                    className="block px-4 py-2 hover:bg-green-700"
-                                >
-                                    Subitem 3
-                                </Link>
-                            </li>
-                        </ul>
+                       
                     </li>
-                    <li className="relative group">
+                    <li className="">
                         <Link
                             href="/"
-                            className="px-4 py-2 block hover:bg-green-700  rounded"
+                            className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
                         >
-                            অন্যান্য
+                            যোগাযোগ <IoMdArrowDropdown className='text-xl'/>
                         </Link>
-
-                        {/* Dropdown Menu */}
-                        <ul className="absolute left-0 top-full mt-1 w-40 bg-white text-black  rounded shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-300">
-                            <li>
-                                <Link
-                                    href="/subpage1"
-                                    className="block px-4 py-2  hover:bg-green-700"
-                                >
-                                    Subitem 1
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/subpage2"
-                                    className="block px-4 py-2 hover:bg-green-700"
-                                >
-                                    Subitem 2
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/subpage3"
-                                    className="block px-4 py-2 hover:bg-green-700"
-                                >
-                                    Subitem 3
-                                </Link>
-                            </li>
-                        </ul>
-                    </li>
-                    <li className="relative group">
-                        <Link
-                            href="/"
-                            className="px-4 py-2 block hover:bg-green-700  rounded"
-                        >
-                           গ্যালারি
-                        </Link>
-
-                        {/* Dropdown Menu */}
-                        <ul className="absolute left-0 top-full mt-1 w-40 bg-white text-black  rounded shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-300">
-                            <li>
-                                <Link
-                                    href="/subpage1"
-                                    className="block px-4 py-2  hover:bg-green-700"
-                                >
-                                    Subitem 1
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/subpage2"
-                                    className="block px-4 py-2 hover:bg-green-700"
-                                >
-                                    Subitem 2
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/subpage3"
-                                    className="block px-4 py-2 hover:bg-green-700"
-                                >
-                                    Subitem 3
-                                </Link>
-                            </li>
-                        </ul>
-                    </li>
-                    <li className="relative group">
-                        <Link
-                            href="/"
-                            className="px-4 py-2 block hover:bg-green-700  rounded"
-                        >
-                            যোগাযোগ
-                        </Link>
-
-                        {/* Dropdown Menu */}
-                        <ul className="absolute left-0 top-full mt-1 w-40 bg-white text-black  rounded shadow-lg opacity-0 group-hover:opacity-100 transition-all duration-300">
-                            <li>
-                                <Link
-                                    href="/subpage1"
-                                    className="block px-4 py-2  hover:bg-green-700"
-                                >
-                                    Subitem 1
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/subpage2"
-                                    className="block px-4 py-2 hover:bg-green-700"
-                                >
-                                    Subitem 2
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/subpage3"
-                                    className="block px-4 py-2 hover:bg-green-700"
-                                >
-                                    Subitem 3
-                                </Link>
-                            </li>
-                        </ul>
                     </li>
                 </ul>
                 <div>
