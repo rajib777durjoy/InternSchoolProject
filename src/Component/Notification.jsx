@@ -3,7 +3,7 @@ import { CgNotes } from "react-icons/cg";
 import { IoMdArrowDropright } from "react-icons/io";
 const Notifications = () => {
     return (
-        <div className='w-[100%] h-[300px] my-5 flex border-2 border-black py-4'>
+        <div className='w-[100%] h-[300px] my-5 flex rounded-md border border-gray-300 py-4 shadow-lg'>
             <div className='mx-10'>
                 <CgNotes className='text-9xl text-green-700 mt-4 mx-10' />
             </div>
@@ -16,8 +16,8 @@ const Notifications = () => {
                     <li className='flex items-center my-2 cursor-pointer text-blue-900'><IoMdArrowDropright className='text-green-700 text-2xl' /> <Link href={'/'} >MPO EFT সংক্রান্তঃ মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরাধীন শিক্ষা প্রতিষ্ঠানের...</Link></li>
                     <li className='flex items-center my-2 cursor-pointer text-blue-900'><IoMdArrowDropright className='text-green-700 text-2xl' /> <Link href={'/'} >উপবৃত্তি প্রাপ্ত শিক্ষার্থীদের শিক্ষা প্রতিষ্ঠান পরিবর্তন/ট্রান্সফারকরণ প্রসঙ্গে।</Link></li>
                 </ul>
-                <div className='text-black text-end mt-4'>
-                    <Link href={'/'} className='border-0 p-4 rounded-md text-white text-sm bg-green-700 '>সকল নোটিশ</Link>
+                <div className='text-black text-end mt-4 px-4'>
+                    <Link href={'/'} className='border-0 p-4 rounded-md text-white text-sm bg-green-700'>সকল নোটিশ</Link>
                 </div>
             </div>
         </div>
