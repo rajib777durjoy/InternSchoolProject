@@ -37,7 +37,7 @@ const Navbar = () => {
                     </li>
                     <li className="relative group">
                         <Link
-                            href="/"
+                            href="#"
                             className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
                         >
                            প্রতিষ্ঠান পরিচিতি <IoMdArrowDropdown className='text-xl' />
@@ -47,7 +47,7 @@ const Navbar = () => {
                         <ul className="absolute left-0 z-40 top-full mt-1 w-[300px] bg-white text-black  rounded shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300">
                             <li>
                                 <Link
-                                    href="/subpage1"
+                                    href="/Profile"
                                     className="block px-4 py-2 text-sm  hover:bg-green-700"
                                 >
                                     প্রধান শিক্ষকের বক্তব্য
@@ -55,7 +55,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/subpage2"
+                                    href="/AssistantTeacher"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                     সহাকারি প্রধান শিক্ষকের বক্তব্য
@@ -63,10 +63,18 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
+                                    href="/AllTeacher"
+                                    className="block px-4 py-2 text-sm hover:bg-green-700"
+                                >
+                                    শিক্ষক মন্ডলী 
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
                                     href="/subpage3"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
-                                    শিক্ষক মন্ডলী, কর্মচারী তালিকা
+                                    কর্মচারী তালিকা
                                 </Link>
                             </li>
                             <li>
@@ -325,7 +333,7 @@ const Navbar = () => {
                             href="/"
                             className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
                         >
-                           গ্যালারি <IoMdArrowDropdown className='text-xl' />
+                           গ্যালারি 
                         </Link>
 
                        
@@ -335,7 +343,7 @@ const Navbar = () => {
                             href="/"
                             className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
                         >
-                            যোগাযোগ <IoMdArrowDropdown className='text-xl'/>
+                            যোগাযোগ 
                         </Link>
                     </li>
                 </ul>

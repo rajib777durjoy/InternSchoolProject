@@ -7,13 +7,13 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div className='w-[100%]  flex justify-between gap-2 min-h-screen'>
-            <div className='w-[75%] mt-4'>
+        <div className='w-[100%]  lg:flex justify-between gap-2 min-h-screen'>
+            <div className='w-[100%] lg:w-[75%] mt-4'>
                   <Slider></Slider>
                   <Notifications></Notifications>
                   <Category></Category>
             </div>
-            <div className='w-[25%] mt-4'>
+            <div className='w-[100%] lg:w-[25%] mt-4'>
                 <BasicInfo></BasicInfo> 
             </div>
         </div>
