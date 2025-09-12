@@ -1,177 +1,145 @@
 export const TeacherCollection = [
   {
-    "name": "Mr. Rahim Hossain",
-    "title": "Senior Teacher",
-    "subject": "Mathematics",
-    "image": "https://example.com/images/rahim_hossain.jpg",
+     "id":1,
+    "name": "বাদল চন্দ্র বর্মন",
+    "title": "প্রধান শিক্ষক",
+    "subject": "প্রযোজ্য নয়",
+    "image": "/rahmatpuraghs_staffs.jpg",
+    "role": "teacher"
+  },
+  {  "id":2,
+    "name": "মোছাঃ তাহমিনা বেগম",
+    "title": "সহকারী শিক্ষক",
+    "subject": "এসইসি-সামাজিক বিজ্ঞান",
+    "image": "/rahmatpuraghs_staffs_photo2.jpg",
     "role": "teacher"
   },
   {
-    "name": "Ms. Shanta Das",
-    "title": "Assistant Teacher",
-    "subject": "English",
-    "image": "https://example.com/images/shanta_das.jpg",
+     "id":3,
+    "name": "মো: শরিফুল ইসলাম",
+    "title": "সহকারী শিক্ষক",
+    "subject": "গণিত",
+    "image": "/rahmatpuraghs_staffs_photo_3.jpg",
     "role": "teacher"
   },
   {
-    "name": "Dr. Alamgir Kabir",
-    "title": "Head of Department",
-    "subject": "Physics",
-    "image": "https://example.com/images/alamgir_kabir.jpg",
+     "id":4,
+    "name": "মোঃ মেহেদী হাসান",
+    "title": "সহকারী শিক্ষক",
+    "subject": "কৃষি শিক্ষা",
+    "image": "/rahmatpuraghs_staffs_photo_4.jpg",
     "role": "teacher"
   },
   {
-    "name": "Mrs. Laila Akter",
-    "title": "Teacher",
-    "subject": "Chemistry",
-    "image": "https://example.com/images/laila_akter.jpg",
+     "id":5,
+    "name": "মোঃ শামসুজ্জোহা সরকার",
+    "title": "সহকারী শিক্ষক",
+    "subject": "বাংলা",
+    "image": "/rahmatpuraghs_staffs_photo_5.jpg",
     "role": "teacher"
   },
   {
-    "name": "Mr. Sazzad Hossain",
-    "title": "Senior Teacher",
-    "subject": "History",
-    "image": "https://example.com/images/sazzad_hossain.jpg",
+     "id":6,
+    "name": "প্রতিমা রানী বর্মন",
+    "title": "সহকারী শিক্ষক",
+    "subject": "হিন্দু ধর্ম",
+    "image": "/rahmatpuraghs_staffs_photo_6.jpg",
+    "role": "teacher"
+  },
+  {
+     "id":7,
+    "name": "মোঃ আনিছুর রহমান",
+    "title": "সহকারী শিক্ষক",
+    "subject": "তথ্য ও যোগাযোগ প্রযুক্তি",
+    "image": "/rahmatpuraghs_staffs_photo_7.jpg",
+    "role": "teacher"
+  },
+  {
+     "id":8,
+    "name": "মামুন উর-রশিদ",
+    "title": "সহকারী শিক্ষক",
+    "subject": "ভৌত বিজ্ঞান",
+    "image": "/rahmatpuraghs_staffs_photo_8.jpg",
+    "role": "teacher"
+  },
+  {
+     "id":9,
+    "name": "মোঃ শাহারুল ইসলাম",
+    "title": "সহকারী শিক্ষক",
+    "subject": "ইসলাম শিক্ষা",
+    "image": "/rahmatpuraghs_staffs_photo_9.jpg",
+    "role": "teacher"
+  },
+  {
+     "id":10,
+    "name": "চারু ভূষন বর্মন",
+    "title": "সহকারী শিক্ষক",
+    "subject": "গ্রন্থাগার ও তথ্য বিজ্ঞান",
+    "image": "/rahmatpuraghs_staffs_photo_10.jpg",
+    "role": "teacher"
+  },
+  {
+     "id":11,
+    "name": "মোছাঃ নূরজাহান বেগম",
+    "title": "সহকারী শিক্ষক",
+    "subject": "শারীরিক শিক্ষা",
+    "image": "/rahmatpuraghs_staffs_photo_11.jpg",
+    "role": "teacher"
+  },
+  {
+     "id":12,
+    "name": "ইশরাত জাহান",
+    "title": "সহকারী শিক্ষক",
+    "subject": "ইংরেজি",
+    "image": "/rahmatpuraghs_staffs_photo_12.jpg",
+    "role": "teacher"
+  },
+  {
+     "id":13,
+    "name": "মোঃ সুলভ মিয়া",
+    "title": "অফিস সহকারী কাম হিসাব সহকারী",
+    "subject": "প্রযোজ্য নয়",
+    "image": "/default_user1.jpg",
     "role": "staff"
   },
   {
-    "name": "Ms. Farhana Jahan",
-    "title": "Assistant Teacher",
-    "subject": "Biology",
-    "image": "https://example.com/images/farhana_jahan.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Mr. Aminul Islam",
-    "title": "Teacher",
-    "subject": "Geography",
-    "image": "https://example.com/images/aminul_islam.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Mrs. Roksana Khatun",
-    "title": "Senior Teacher",
-    "subject": "Bangla",
-    "image": "https://example.com/images/roksana_khatun.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Mr. Badrul Alam",
-    "title": "Teacher",
-    "subject": "Political Science",
-    "image": "https://example.com/images/badrul_alam.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Mr. Kamrul Hasan",
-    "title": "Staff",
-    "subject": "Library",
-    "image": "https://example.com/images/kamrul_hasan.jpg",
+     "id":14,
+    "name": "মোছাঃ জামিলা বেগম",
+    "title": "আয়া",
+    "subject": "প্রযোজ্য নয়",
+    "image": "/default_user2.jpg",
     "role": "staff"
   },
   {
-    "name": "Ms. Tamanna Rahman",
-    "title": "Assistant Teacher",
-    "subject": "Economics",
-    "image": "https://example.com/images/tamanna_rahman.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Mr. Nurul Haque",
-    "title": "Teacher",
-    "subject": "Philosophy",
-    "image": "https://example.com/images/nurul_haque.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Mrs. Jesmin Ara",
-    "title": "Senior Teacher",
-    "subject": "Home Economics",
-    "image": "https://example.com/images/jesmin_ara.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Mr. Saiful Islam",
-    "title": "Teacher",
-    "subject": "ICT",
-    "image": "https://example.com/images/saiful_islam.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Ms. Anika Chowdhury",
-    "title": "Assistant Teacher",
-    "subject": "Fine Arts",
-    "image": "https://example.com/images/anika_chowdhury.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Mr. Rezaul Karim",
-    "title": "Teacher",
-    "subject": "Accounting",
-    "image": "https://example.com/images/rezaul_karim.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Mr. Abdur Razzak",
-    "title": "Staff",
-    "subject": "Office Clerk",
-    "image": "https://example.com/images/abdur_razzak.jpg",
+     "id":15,
+    "name": "মোঃ মতিয়ার রহমান",
+    "title": "নৈশ প্রহরী",
+    "subject": "প্রযোজ্য নয়",
+    "image": "/rahmatpuraghs_staffs_photo_13.jpg",
     "role": "staff"
   },
   {
-    "name": "Mrs. Mahmuda Akter",
-    "title": "Teacher",
-    "subject": "Islamic Studies",
-    "image": "https://example.com/images/mahmuda_akter.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Mr. Habibur Rahman",
-    "title": "Senior Teacher",
-    "subject": "Sociology",
-    "image": "https://example.com/images/habibur_rahman.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Ms. Nafisa Yasmin",
-    "title": "Assistant Teacher",
-    "subject": "Music",
-    "image": "https://example.com/images/nafisa_yasmin.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Mr. Jahangir Alam",
-    "title": "Teacher",
-    "subject": "Physical Education",
-    "image": "https://example.com/images/jahangir_alam.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Mrs. Sultana Parvin",
-    "title": "Staff",
-    "subject": "Administration",
-    "image": "https://example.com/images/sultana_parvin.jpg",
+     "id":16,
+    "name": "মোছাঃ রুবন আকতার",
+    "title": "অফিস সহায়ক",
+    "subject": "প্রযোজ্য নয়",
+    "image": "/rahmatpuraghs_staffs_photo_14.jpg",
     "role": "staff"
   },
   {
-    "name": "Mr. Mizanur Rahman",
-    "title": "Teacher",
-    "subject": "Environmental Science",
-    "image": "https://example.com/images/mizanur_rahman.jpg",
-    "role": "teacher"
+     "id":17,
+    "name": "মোঃ আব্দুল মালেক",
+    "title": "পরিচ্ছন্নতা কর্মী",
+    "subject": "প্রযোজ্য নয়",
+    "image": "/rahmatpuraghs_staffs_photo_15.jpg",
+    "role": "staff"
   },
   {
-    "name": "Ms. Ruma Akter",
-    "title": "Assistant Teacher",
-    "subject": "Psychology",
-    "image": "https://example.com/images/ruma_akter.jpg",
-    "role": "teacher"
-  },
-  {
-    "name": "Mr. Khaled Mahmud",
-    "title": "Staff",
-    "subject": "Lab Assistant",
-    "image": "https://example.com/images/khaled_mahmud.jpg",
+     "id":18,
+    "name": "মুকুল চন্দ্র বর্মন",
+    "title": "নিরাপত্তা কর্মী",
+    "subject": "প্রযোজ্য নয়",
+    "image": "/rahmatpuraghs_staffs_photo_16.jpg",
     "role": "staff"
   }
 ];
