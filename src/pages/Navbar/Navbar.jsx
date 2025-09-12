@@ -89,7 +89,7 @@ const Navbar = () => {
                     </li>
                     <li className="relative group">
                         <Link
-                            href="/"
+                            href="#"
                             className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
                         >
                             শিক্ষার্থীর তথ্য <IoMdArrowDropdown className='text-xl'/>
@@ -107,7 +107,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/subpage2"
+                                    href="/StudentListPage"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                      ধরণ ভিত্তিক শিক্ষার্থী তালিকা
