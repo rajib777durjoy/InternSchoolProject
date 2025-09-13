@@ -99,7 +99,7 @@ const Navbar = () => {
                         <ul className="absolute left-0 z-40 top-full mt-1 w-[300px] bg-white text-black  rounded shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300">
                             <li>
                                 <Link
-                                    href="/subpage1"
+                                    href="/StudentCountPage"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                     ধরণ ভিত্তিক শিক্ষার্থী সংখ্যা
