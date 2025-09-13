@@ -273,7 +273,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/subpage3"
+                                    href="/ClassAndSection"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                     শ্রেণিভিত্তিক অনুমোদিত শাখা
@@ -281,7 +281,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/subpage3"
+                                    href="/DataServicePage"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                    তথ্যসেবা কেন্দ্রের ঠিকানা ও মোবাইল নম্বর
@@ -289,7 +289,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/subpage3"
+                                    href="/CHOInfo"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                    অভিযোগ নিষ্পত্তি কর্মকর্তার ঠিকানা ও মোবাইল নম্বর
@@ -297,7 +297,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/subpage3"
+                                    href="/MPOPage"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                     এমপিও/ইএফটি
@@ -305,7 +305,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/subpage3"
+                                    href="/OthersDownloadFile"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                      বিভিন্ন ফরম ডাউনলোড 
@@ -325,7 +325,7 @@ const Navbar = () => {
                     </li>
                     <li className="">
                         <Link
-                            href="/"
+                            href="/ContactPage"
                             className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
                         >
                             যোগাযোগ 
