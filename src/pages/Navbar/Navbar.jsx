@@ -262,25 +262,10 @@ const Navbar = () => {
 
                         {/* Dropdown Menu */}
                         <ul className="absolute left-0 z-40 top-full mt-1 w-[300px] bg-white text-black  rounded shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300">
+                           
                             <li>
                                 <Link
-                                    href="/subpage1"
-                                    className="block px-4 py-2  text-sm hover:bg-green-700"
-                                >
-                                    অনুমোদিত কমিটির চিঠি
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/subpage2"
-                                    className="block px-4 py-2 text-sm hover:bg-green-700"
-                                >
-                                   কমিটির সদস্যের তথ্য
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    href="/subpage3"
+                                    href="/StudyOrder"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                    পাঠদানের অনুমতি ও স্বীকৃতি

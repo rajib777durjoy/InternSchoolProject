@@ -6,10 +6,10 @@ import Link from 'next/link';
 const CommitteMember = () => {
     return (
         <div className='w-[100%] '>
-            <h1 className='text-xl text-center text-black'>বর্তমান কমিটির সদস‌্যের তালিকা</h1>
-            <div className='w-[100%] border border-red-300  grid lg:grid-cols-4 md:grid-cols-3 text-black'>
+            <h1 className='text-xl text-center text-black my-4'>বর্তমান কমিটির সদস‌্যের তালিকা</h1>
+            <div className='w-[100%] gap-4 grid lg:grid-cols-4 md:grid-cols-3 text-black'>
                 {
-                    TeacherCollection?.slice(0, 4).map(item => <div key={item?.id} className='border border-red  text-black'>
+                    TeacherCollection?.slice(0, 4).map(item => <div key={item?.id} className='border rounded-lg text-black'>
                         <div className='w-[90%] mx-auto'>
                             <img src={item?.image} alt="" className='w-[200px] h-[200px] mx-auto rounded-full' />
                         </div>
