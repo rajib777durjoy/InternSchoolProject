@@ -143,7 +143,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/subpage3"
+                                    href="/Various"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                  বিবিধ 
