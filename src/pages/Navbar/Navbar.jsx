@@ -135,7 +135,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="#"
+                                    href="/Syllabus"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                    পাঠ্যসূচি
