@@ -333,7 +333,7 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <div>
-                    <button className='btn text-white hover:text-black bg-green-700 hover:bg-transparent rounded-md'>লগইন</button>
+                    <Link href='/Login'><button className='btn text-white hover:text-black bg-green-700 hover:bg-transparent rounded-md'>লগইন</button></Link>
                 </div>
             </div>
         </div>
