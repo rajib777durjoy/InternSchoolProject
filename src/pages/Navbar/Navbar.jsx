@@ -127,7 +127,7 @@ const Navbar = () => {
                         <ul className="absolute left-0 z-40 top-full mt-1 w-[300px] bg-white text-black  rounded shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300">
                             <li>
                                 <Link
-                                    href="/subpage1"
+                                    href="/ClassRoutine"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                    শিক্ষকদের নামসহ পূর্ণাঙ্গ রুটিন
@@ -135,7 +135,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/subpage2"
+                                    href="#"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                    পাঠ্যসূচি
@@ -330,7 +330,7 @@ const Navbar = () => {
                     </li>
                     <li className="">
                         <Link
-                            href="/"
+                            href="/Gallary"
                             className="p-2 hover:bg-green-700 hover:text-white text-sm flex items-start rounded"
                         >
                            গ্যালারি 
