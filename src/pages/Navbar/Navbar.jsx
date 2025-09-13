@@ -163,7 +163,7 @@ const Navbar = () => {
                         <ul className="absolute left-0 z-40 top-full mt-1 w-[300px] bg-white text-black  rounded shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300">
                             <li>
                                 <Link
-                                    href="/subpage1"
+                                    href="/NoticePage"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                     সকল নোটিশ
@@ -171,7 +171,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/subpage2"
+                                    href="/NoticePage"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                     শিক্ষকগণের নোটিশ
@@ -179,7 +179,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/subpage3"
+                                    href="/NoticePage/student"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                      শিক্ষার্থী নোটিশ
@@ -187,7 +187,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/subpage3"
+                                    href="#"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                    নিয়োগ সংক্রান্ত নোটিশ
@@ -195,7 +195,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="/subpage3"
+                                    href="#"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                     পরীক্ষা সংক্রান্ত নোটিশ 
@@ -215,7 +215,7 @@ const Navbar = () => {
                         <ul className="absolute left-0 z-40 top-full mt-1 w-[300px] bg-white text-black  rounded shadow-lg invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-300">
                             <li>
                                 <Link
-                                    href="/subpage1"
+                                    href="/SchoolResult"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                    বিদ্যালয়ের ফলাফল
