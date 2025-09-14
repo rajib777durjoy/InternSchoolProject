@@ -187,7 +187,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="#"
+                                    href="/CircularNotice"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                    নিয়োগ সংক্রান্ত নোটিশ
