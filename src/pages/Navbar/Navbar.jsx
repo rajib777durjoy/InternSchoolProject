@@ -195,7 +195,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <Link
-                                    href="#"
+                                    href="/ExamRelatedNotice"
                                     className="block px-4 py-2 text-sm hover:bg-green-700"
                                 >
                                     পরীক্ষা সংক্রান্ত নোটিশ 

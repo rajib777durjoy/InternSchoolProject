@@ -10,11 +10,11 @@ const Notifications = () => {
             <div className='w-[90%] lg:w-[70%] mx-auto my-2'>
                 <h2 className='text-2xl font-bold text-green-700 lg:my-4'>নোটিশ বোর্ড</h2>
                 <ul className='text-black'>
-                    <li className='flex items-center my-1 cursor-pointer text-blue-900 text-sm '><IoMdArrowDropright className='text-green-700 text-2xl' /> <Link href={'/'} >Eid-E Miladunnabi Sa. 2025 Programm List</Link></li>
-                    <li className='flex items-center my-1 cursor-pointer text-blue-900 text-sm '><IoMdArrowDropright className='text-green-700 text-2xl' /> <Link href={'/'} >প্রত‌্যাহিক সমাবেশ</Link></li>
-                    <li className='flex items-center my-1 cursor-pointer text-blue-900 text-sm '><IoMdArrowDropright className='text-green-700 text-2xl' /> <Link href={'/'} >অর্ধ বার্ষিক পরীক্ষা ২০২৫ এর উত্তরপত্র জমাদান সংক্রান্ত।</Link></li>
-                    <li className='flex items-center my-1 cursor-pointer text-blue-900 text-sm '><IoMdArrowDropright className='text-green-700 text-2xl' /> <Link href={'/'} >MPO EFT সংক্রান্তঃ মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরাধীন শিক্ষা প্রতিষ্ঠানের...</Link></li>
-                    <li className='flex items-center my-1 cursor-pointer text-blue-900 text-sm '><IoMdArrowDropright className='text-green-700 text-2xl' /> <Link href={'/'} >উপবৃত্তি প্রাপ্ত শিক্ষার্থীদের শিক্ষা প্রতিষ্ঠান পরিবর্তন/ট্রান্সফারকরণ প্রসঙ্গে।</Link></li>
+                    <li className='flex items-center my-1 cursor-pointer text-blue-900 text-sm '><IoMdArrowDropright className='text-green-700 text-2xl' /> <Link href={'/rahmatpuraghs_Students-Notice_7.jpg'} >Eid-E Miladunnabi Sa. 2025 Programm List</Link></li>
+                    <li className='flex items-center my-1 cursor-pointer text-blue-900 text-sm '><IoMdArrowDropright className='text-green-700 text-2xl' /> <Link href={'/rahmatpuraghs_Others-Notice_6.png'} >প্রত‌্যাহিক সমাবেশ</Link></li>
+                    <li className='flex items-center my-1 cursor-pointer text-blue-900 text-sm '><IoMdArrowDropright className='text-green-700 text-2xl' /> <Link href={'/rahmatpuraghs_MPO-EFT_1755544710_MPO_5.pdf'} >অর্ধ বার্ষিক পরীক্ষা ২০২৫ এর উত্তরপত্র জমাদান সংক্রান্ত।</Link></li>
+                    <li className='flex items-center my-1 cursor-pointer text-blue-900 text-sm '><IoMdArrowDropright className='text-green-700 text-2xl' /> <Link href={'/rahmatpuraghs_MPO-EFT_1755544676_MPO_4.pdf'} >MPO EFT সংক্রান্তঃ মাধ্যমিক ও উচ্চ শিক্ষা অধিদপ্তরাধীন শিক্ষা প্রতিষ্ঠানের...</Link></li>
+                    <li className='flex items-center my-1 cursor-pointer text-blue-900 text-sm '><IoMdArrowDropright className='text-green-700 text-2xl' /> <Link href={'/rahmatpuraghs_Official-Notice_1755539473Upobrithree.pdf'} >উপবৃত্তি প্রাপ্ত শিক্ষার্থীদের শিক্ষা প্রতিষ্ঠান পরিবর্তন/ট্রান্সফারকরণ প্রসঙ্গে।</Link></li>
                 </ul>
                 <div className='text-black text-end mt-4 px-4'>
                     <Link href={'/'} className='border-0 p-4 rounded-md text-white text-sm bg-green-700'>সকল নোটিশ</Link>

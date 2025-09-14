@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaDownload } from 'react-icons/fa6';
 
 const page = () => {
     return (
