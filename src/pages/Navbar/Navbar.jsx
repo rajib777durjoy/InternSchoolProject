@@ -8,13 +8,13 @@ const Navbar = () => {
     return (
         <div className='w-[90%] border mx-auto min-h-[100px]'>
             <div className='text-right text-black py-2'>English</div>
-            <div className="navbar bg-green-700  shadow-sm justify-between ">
+            <div className="navbar flex flex-col lg:flex-row bg-green-700  shadow-sm justify-between ">
                 <div className="flex items-center">
                     {/* logo */}
                     <Image src={logo} alt='' quality={100} className='w-[50px] h-[50px]' />
                     {/* school name */}
                     <span className='mx-2'>
-                        <h2 className='text-2xl  font-bold drop-shadow-lg drop-shadow-black'>রহমতপুর আদর্শ বালিকা উচ্চ বিদ্যালয়</h2>
+                        <h2 className='text-xl lg:text-2xl  font-bold drop-shadow-lg drop-shadow-black'>রহমতপুর আদর্শ বালিকা উচ্চ বিদ্যালয়</h2>
                         <h2 className='text-sm drop-shadow-lg drop-shadow-black font-bold'>শিক্ষা জাতির মেরুদণ্ড, শিক্ষা হোক সবার জন্য</h2>
                     </span>
 
