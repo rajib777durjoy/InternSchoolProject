@@ -1,3 +1,5 @@
+
+import Link from 'next/link';
 import React from 'react';
 import { FaDownload } from 'react-icons/fa6';
 
@@ -30,9 +32,9 @@ const page = () => {
                             </td>
                            
                             <td className='text-center py-2 text-sm border  border-gray-300 flex justify-center'>
-                                <a href={`/rahmatpuraghs_MPO-EFT_1755544737_MPO`} download={`/rahmatpuraghs_MPO-EFT_1755544737_MPO`} rel='documentfile' >
+                                <Link href={`/rahmatpuraghs_MPO-EFT_1755544737_MPO`} download={`/rahmatpuraghs_MPO-EFT_1755544737_MPO`} rel='documentfile' >
                                     <FaDownload className='text-2xl' />
-                                </a>
+                                </Link>
                             </td>
 
                         </tr>
@@ -49,9 +51,9 @@ const page = () => {
                             </td>
                            
                             <td className='text-center py-2 text-sm border  border-gray-300 flex justify-center'>
-                                <a href={`/rahmatpuraghs_MPO-EFT_1755544710_MPO_5`} download={`/rahmatpuraghs_MPO-EFT_1755544710_MPO_5`} rel='documentfile' >
+                                <Link href={`/rahmatpuraghs_MPO-EFT_1755544710_MPO_5`} download={`/rahmatpuraghs_MPO-EFT_1755544710_MPO_5`} rel='documentfile' >
                                     <FaDownload className='text-2xl' />
-                                </a>
+                                </Link>
                             </td>
 
                         </tr>
@@ -68,9 +70,9 @@ const page = () => {
                             </td>
                            
                             <td className='text-center py-2 text-sm border  border-gray-300 flex justify-center'>
-                                <a href={`/rahmatpuraghs_MPO-EFT_1755544676_MPO_4`} download={`/rahmatpuraghs_MPO-EFT_1755544676_MPO_4`} rel='documentfile' >
+                                <Link href={`/rahmatpuraghs_MPO-EFT_1755544676_MPO_4`} download={`/rahmatpuraghs_MPO-EFT_1755544676_MPO_4`} rel='documentfile' >
                                     <FaDownload className='text-2xl' />
-                                </a>
+                                </Link>
                             </td>
 
                         </tr>
@@ -87,9 +89,9 @@ const page = () => {
                             </td>
                            
                             <td className='text-center py-2 text-sm border  border-gray-300 flex justify-center'>
-                                <a href={`/rahmatpuraghs_MPO-EFT_1755544640_MPO_3`} download={`/rahmatpuraghs_MPO-EFT_1755544640_MPO_3`} rel='documentfile' >
+                                <Link href={`/rahmatpuraghs_MPO-EFT_1755544640_MPO_3`} download={`/rahmatpuraghs_MPO-EFT_1755544640_MPO_3`} rel='documentfile' >
                                     <FaDownload className='text-2xl' />
-                                </a>
+                                </Link>
                             </td>
 
                         </tr>
@@ -106,9 +108,9 @@ const page = () => {
                             </td>
                            
                             <td className='text-center py-2 text-sm border  border-gray-300 flex justify-center'>
-                                <a href={`/rahmatpuraghs_MPO-EFT_1755542221_MPO_2`} download={`/rahmatpuraghs_MPO-EFT_1755542221_MPO_2`} rel='documentfile' >
+                                <Link href={`/rahmatpuraghs_MPO-EFT_1755542221_MPO_2`} download={`/rahmatpuraghs_MPO-EFT_1755542221_MPO_2`} rel='documentfile' >
                                     <FaDownload className='text-2xl' />
-                                </a>
+                                </Link>
                             </td>
 
                         </tr>
@@ -125,9 +127,9 @@ const page = () => {
                             </td>
                            
                             <td className='text-center py-2 text-sm border  border-gray-300 flex justify-center'>
-                                <a href={`/rahmatpuraghs_MPO-EFT_1755541436_MPO_1`} download={`/rahmatpuraghs_MPO-EFT_1755541436_MPO_1`} rel='documentfile' >
+                                <Link href={`/rahmatpuraghs_MPO-EFT_1755541436_MPO_1`} download={`/rahmatpuraghs_MPO-EFT_1755541436_MPO_1`} rel='documentfile' >
                                     <FaDownload className='text-2xl' />
-                                </a>
+                                </Link>
                             </td>
 
                         </tr>

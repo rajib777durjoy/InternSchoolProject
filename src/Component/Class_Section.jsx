@@ -32,9 +32,9 @@ const Class_Section = () => {
                                27/08/1991 হ‌ইতে
                             </td>
                             <td className='text-center py-2 text-sm  flex justify-center'>
-                                <a href={`/rahmatpuraghs_Teaching-Permission_1756147307_68acae6b1aca7`} download={`/rahmatpuraghs_Teaching-Permission_1756147307_68acae6b1aca7`} rel='documentfile' >
+                                <Link href={`/rahmatpuraghs_Teaching-Permission_1756147307_68acae6b1aca7`} download={`/rahmatpuraghs_Teaching-Permission_1756147307_68acae6b1aca7`} rel='documentfile' >
                                     <FaDownload className='text-2xl' />
-                                </a>
+                                </Link>
                             </td>
 
                         </tr>

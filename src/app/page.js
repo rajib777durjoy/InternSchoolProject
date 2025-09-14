@@ -1,10 +1,10 @@
-import Home from "@/pages/Home/Home";
-import Image from "next/image";
 
+
+import Homepage from "@/pages/Home/Home";
 export default function Mainpage() {
   return (
     <div className="w-[100%]">
-       <Home></Home>
+       <Homepage></Homepage>
     </div>
   );
 }

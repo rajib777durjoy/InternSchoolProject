@@ -32,9 +32,9 @@ const StudyOrderPage = () => {
                                 01/01/2024 হ‌ইতে 31/12/2026
                             </td>
                             <td className='text-center py-2 text-sm  flex justify-center'>
-                                <a href={`/rahmatpuraghs_Recognition_1756147230_68acae1e8d89f`} download={`/rahmatpuraghs_Recognition_1756147230_68acae1e8d89f`} rel='documentfile' >
+                                <Link href={`/rahmatpuraghs_Recognition_1756147230_68acae1e8d89f`} download={`/rahmatpuraghs_Recognition_1756147230_68acae1e8d89f`} rel='documentfile' >
                                     <FaDownload className='text-2xl' />
-                                </a>
+                                </Link>
                             </td>
 
                         </tr>

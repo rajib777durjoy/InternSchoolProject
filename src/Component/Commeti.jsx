@@ -33,9 +33,9 @@ const Commeti = () => {
                                 04/03/2025 হ‌ইতে 03/09/2025
                             </td>
                             <td className='text-center py-2 text-sm flex justify-center'>
-                                <a href={`/rahmatpuraghs_Committee_1756147149_68acadcd750d8`} download={`/rahmatpuraghs_Committee_1756147149_68acadcd750d8.pdf`} rel='documentfile' >
+                                <Link href={`/rahmatpuraghs_Committee_1756147149_68acadcd750d8`} download={`/rahmatpuraghs_Committee_1756147149_68acadcd750d8.pdf`} rel='documentfile' >
                                         <FaDownload className='text-2xl' />
-                                    </a>                                                 
+                                    </Link>                                                 
                             </td>
 
                         </tr>

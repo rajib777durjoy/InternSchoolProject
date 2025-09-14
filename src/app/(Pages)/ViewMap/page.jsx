@@ -1,3 +1,4 @@
+'use client'
 import View_map from "@/Component/View_map";
 
 const ViewMap = () => {

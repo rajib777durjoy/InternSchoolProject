@@ -49,9 +49,9 @@ const NoticePage = () => {
                                 <td className='text-start px-4 py-2 text-sm border border-gray-300 text-blue-900'>{item?.title}</td>
                                 <td className='text-start px-4 py-2 text-sm border border-gray-300 text-black'>{item?.date}</td>
                                 <td className='text-start px-4 py-2 border border-gray-300 flex justify-center'>
-                                    <a href={`${item?.item?.download_link}`} download={`${item?.item?.download_link}`} rel='documentfile' >
+                                    <Link href={`${item?.item?.download_link}`} download={`${item?.item?.download_link}`} rel='documentfile' >
                                         <FaDownload className='text-2xl' />
-                                    </a>
+                                    </Link>
                                 </td>
                             </tr>)
                         }
