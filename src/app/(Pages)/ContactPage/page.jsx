@@ -8,7 +8,7 @@ const page = () => {
                 <h2 className='text-center text-black leading-14 text-2xl'>ক্লাস রুটিন</h2>
             </div>
             <div className='flex flex-wrap gap-4'>
-                <div className='w-[38%] border border-gray-300 h-[250px] rounded-md my-4 p-4'>
+                <div className='w-[100%] lg:w-[38%] border border-gray-300 h-[250px] rounded-md my-4 p-4'>
                     <h2 className='text-xl text-green-700 font-bold'>ঠিকানা:</h2>
                     <p className='text-xl text-black'>পার্বতীপুর, রহমতপুর, গাইবান্ধা সদর, গাইবান্ধা</p>
                     <h2 className='text-xl text-green-700 font-bold'>ইমেইল:</h2>
@@ -16,7 +16,7 @@ const page = () => {
                     <h2 className='text-xl text-green-700 font-bold'>মোবাইল ফোন:</h2>
                     <p className='text-xl text-black'>01721214499</p>
                 </div>
-                <div className='w-[60%] border border-gray-300 my-4 p-4 rounded-md'>
+                <div className='w-[100%] lg:w-[60%] border border-gray-300 my-4 p-4 rounded-md'>
                     <h1 className='text-sm text-black'>আমাদের সাথে যোগাযোগ করতে নিচের তথ্য এবং ফর্ম ব্যবহার করুন।</h1>
                     <h2>যোগাযোগ ফর্ম</h2>
                     <form action="" className='w-[90%] mx-auto '>

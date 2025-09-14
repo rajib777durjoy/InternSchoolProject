@@ -20,19 +20,19 @@ const Commeti = () => {
                     </thead>
                     <tbody>
                         <tr className='border border-gray-300 '>
-                            <td className='text-center py-2 text-sm'>
+                            <td className='text-center py-2 text-sm border border-gray-300'>
                                 1
                             </td>
-                            <td className='text-center py-2 text-sm'>
+                            <td className='text-center py-2 text-sm border border-gray-300'>
                                 এডহক কমিটি
                             </td>
-                            <td className='text-center py-2 text-sm'>
+                            <td className='text-center py-2 text-sm border border-gray-300'>
                                 2025-03-04
                             </td>
-                            <td className='text-center py-2 text-sm'>
+                            <td className='text-center py-2 text-sm border border-gray-300'>
                                 04/03/2025 হ‌ইতে 03/09/2025
                             </td>
-                            <td className='text-center py-2 text-sm'>
+                            <td className='text-center py-2 text-sm flex justify-center'>
                                 <a href={`/rahmatpuraghs_Committee_1756147149_68acadcd750d8`} download={`/rahmatpuraghs_Committee_1756147149_68acadcd750d8.pdf`} rel='documentfile' >
                                         <FaDownload className='text-2xl' />
                                     </a>                                                 

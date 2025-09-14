@@ -4,7 +4,7 @@ import { IoMdArrowDropright } from "react-icons/io";
 const Notifications = () => {
     return (
         <div className='w-[100%] min-h-[300px] my-5 grid lg:grid-cols-2 rounded-md border border-gray-300 py-4 shadow-lg'>
-            <div className='w-[50%] mx-auto lg:mx-10'>
+            <div className='w-[50%] mx-auto lg:mx-5'>
                 <CgNotes className='text-8xl lg:text-9xl text-green-700 mt-4 mx-10' />
             </div>
             <div className='w-[90%] lg:w-[70%] mx-auto my-2'>

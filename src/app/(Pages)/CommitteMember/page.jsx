@@ -10,7 +10,7 @@ const CommitteMember = () => {
             <div className='w-[100%] gap-4 grid lg:grid-cols-4 md:grid-cols-3 text-black'>
                 {
                     TeacherCollection?.slice(0, 4).map(item => <div key={item?.id} className='border rounded-lg text-black'>
-                        <div className='w-[90%] mx-auto'>
+                        <div className='w-[90%] mx-auto my-2'>
                             <img src={item?.image} alt="" className='w-[200px] h-[200px] mx-auto rounded-full' />
                         </div>
                         <div className='h-[200px] mt-5'>

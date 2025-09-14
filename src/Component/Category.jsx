@@ -8,9 +8,9 @@ import { FaAward } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa";
 const Category = () => {
     return (
-        <div className='w-[100%] border grid grid-cols-2 gap-6 '>
+        <div className='w-[100%] border grid lg:grid-cols-2 gap-6 '>
             <div className='flex items-start gap-6 py-2 border border-gray-300 shadow-lg rounded-lg'>
-                <div className='mx-6 '><FaGraduationCap className='text-8xl text-green-700' /></div>
+                <div className='mx-6'><FaGraduationCap className='text-8xl text-green-700' /></div>
                 <div>
                     <h2 className='text-2xl text-green-700 font-bold font-serif my-1'>Admission</h2>
                     <ul>

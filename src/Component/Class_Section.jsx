@@ -31,7 +31,7 @@ const Class_Section = () => {
                             <td className='text-center border border-gray-300 py-2 text-sm'>
                                27/08/1991 হ‌ইতে
                             </td>
-                            <td className='text-center py-2 text-sm border  border-gray-300 flex justify-center'>
+                            <td className='text-center py-2 text-sm  flex justify-center'>
                                 <a href={`/rahmatpuraghs_Teaching-Permission_1756147307_68acae6b1aca7`} download={`/rahmatpuraghs_Teaching-Permission_1756147307_68acae6b1aca7`} rel='documentfile' >
                                     <FaDownload className='text-2xl' />
                                 </a>

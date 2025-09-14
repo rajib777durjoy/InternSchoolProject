@@ -31,7 +31,7 @@ const StudyOrderPage = () => {
                             <td className='text-center border border-gray-300 py-2 text-sm'>
                                 01/01/2024 হ‌ইতে 31/12/2026
                             </td>
-                            <td className='text-center py-2 text-sm border  border-gray-300 flex justify-center'>
+                            <td className='text-center py-2 text-sm  flex justify-center'>
                                 <a href={`/rahmatpuraghs_Recognition_1756147230_68acae1e8d89f`} download={`/rahmatpuraghs_Recognition_1756147230_68acae1e8d89f`} rel='documentfile' >
                                     <FaDownload className='text-2xl' />
                                 </a>
