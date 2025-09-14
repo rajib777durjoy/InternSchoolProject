@@ -55,15 +55,15 @@ const BasicInfo = () => {
             <div className='w-[100%] lg:w-[90%] mx-auto '>
               <h2 className='text-center bg-green-700 py-1'>গুরত্বপুর্ণ লিংকসমুহ</h2>
               <ul>
-                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' />শিক্ষা মন্ত্রণালয়</li>
-                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' />মাধ্যমিক ও উচ্চ শিক্ষা বিভাগ</li>
-                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' />মাধ্যমিক ও উচ্চশিক্ষা, রংপুর অঞ্চল</li>
-                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' />দিনাজপুর বোর্ড (ই-ফাইলিং, রেজিঃ, ফরম ফিলাপ)</li>
-                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' />দিনাজপুর বোর্ড (অফিসিয়াল সাইট, নোটিশ)</li>
-                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' />বাংলাদেশ কারিগরি শিক্ষা বোর্ড</li>
-                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' />EMIS</li>
-                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' />BANBEIS</li>
-                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' />উপবৃত্তি (HSP-MIS)</li>
+                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' /><Link href='#'></Link> শিক্ষা মন্ত্রণালয়</li>
+                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' /><Link href='https://shed.gov.bd/'></Link> মাধ্যমিক ও উচ্চ শিক্ষা বিভাগ</li>
+                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' /><Link href='http://www.dsherangpur.gov.bd/'></Link> মাধ্যমিক ও উচ্চশিক্ষা, রংপুর অঞ্চল</li>
+                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' /><Link href='https://dinajpurboard.gov.bd/'></Link> দিনাজপুর বোর্ড (ই-ফাইলিং, রেজিঃ, ফরম ফিলাপ)</li>
+                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' /><Link href='https://dinajpureducationboard.gov.bd/'></Link> দিনাজপুর বোর্ড (অফিসিয়াল সাইট, নোটিশ)</li>
+                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' /><Link href='https://bteb.gov.bd/'></Link> বাংলাদেশ কারিগরি শিক্ষা বোর্ড</li>
+                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' /><Link href='https://emis.gov.bd/emis'></Link> EMIS</li>
+                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' /><Link href='https://banbeis.gov.bd/'></Link> BANBEIS</li>
+                <li className='text-blue-900 flex items-center my-1'><IoMdArrowDropright className='text-green-700 text-2xl' /><Link href='https://hsp.pmeat.gov.bd/HSP-MIS/login'></Link> উপবৃত্তি (HSP-MIS)</li>
               </ul>
             </div>
         </div>
